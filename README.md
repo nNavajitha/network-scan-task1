@@ -33,6 +33,7 @@ During the Nmap SYN scan, I used Wireshark to observe how packets behaved on the
 
  By applying the filter:
 
+ ```bash
 tcp.flags.syn == 1 and tcp.flags.ack == 0
 
 ### 🖼️ Wireshark Scan Screenshot
