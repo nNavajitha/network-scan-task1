@@ -27,6 +27,11 @@ This repository contains the results of Task 1 from my Cyber Security Internship
 
 5. Ran the Nmap scan again while capturing was active
 
+
+### 🖼️ Nmap Scan Output
+
+![Nmap Screenshot](nmap_scan_output.png)
+
 6. Stopped the capture after the scan and saved it as nmap_capture.pcapng
 
 During the Nmap SYN scan, I used Wireshark to observe how packets behaved on the network.
