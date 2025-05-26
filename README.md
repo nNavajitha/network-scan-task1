@@ -35,6 +35,12 @@ During the Nmap SYN scan, I used Wireshark to observe how packets behaved on the
 
 tcp.flags.syn == 1 and tcp.flags.ack == 0
 
+### 🖼️ Wireshark Scan Screenshot
+
+This screenshot shows captured TCP SYN packets during the Nmap scan:
+
+![Wireshark Screenshot](wireshark_scan.png)
+
 I was able to isolate TCP SYN packets — these are the initial packets Nmap sends to check if a port is open. If a port is open, the target replies with a SYN-ACK. If it is closed, the target usually sends a RST packet back.
 
 Each packet shows:
